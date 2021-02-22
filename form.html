@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> forms </title>
+        <meta charset="utf-8">
+
+    </head>
+
+    <body>
+
+        <label for="address" >Address:</label>
+
+        <form method="GET"> <input type ="text" name= "address" 
+
+            placeholder="please enter address" size="60"  max="60" id="address"></form>  
+
+            <br>
+            <label for="city" >City:</label>
+            
+            <form method="GET"> 
+
+                <input type ="text" name= "city" 
+                placeholder="please enter city" size="40"  max="40" id="city"> 
+
+            </form> 
+
+            <br>
+                <label for="postal code" >Postal code:</label>
+
+                <form method="GET">
+                    
+                    <input type ="text" name= "postal code" 
+                placeholder="enter postal code" size="15"  max="15" id="postalCode">  
+             </form>
+
+
+        <p>Select shipping type</p>
+    
+    <select name="shipping options" id="shipping">
+        <option value="oneday">One-Day-Shipping</option>
+        <option value="twoday">Two-Day-Shipping</option>
+        <option value="standered">Standard-Shipping</option>
+        
+    </select>
+
+    <p>Select Payment Type</p>
+    <label><input type="radio" name="payment method" value="Paypal" checked >Paypal</label>
+    <br>
+    <label><input type="radio" name="payment method" value="DebitCard">Debit Card</label>
+    <br>
+    <label><input type="radio" name="payment method" value="CreditCard">Credit Card</label>
+    
+    <br>
+
+    <br>
+    <label>Comments</label>
+    <br>
+    <textarea id="Comments" name="Comments" rows="4" cols="40"> </textarea>
+        
+    <br>
+        <br>
+        <label> 
+            <input type="checkbox" name="emailUpdates"checked > Sign me up for email updates
+        </label>
+        <br>
+        <label> 
+            <input type="checkbox" name="savePaymentInfo" checked> Save my payment information
+        </label>
+        <br>
+        <br>
+
+        <input type="submit" name="Submit" >
+        
+    
+
+        
+        
+
+    </body>
+
+
+</html>
